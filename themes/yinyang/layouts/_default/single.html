@@ -16,14 +16,14 @@
             <div class="col-xs-6">
               {{ if .Date }}
               <time class="post-date" datetime="{{ .Date.Format "2006-01-02 15:04:05 MST" }}">
-                {{ .Date.Format "02 Jan 2006" }}
+                {{ .Date.Format "2006年 01月 02日" }}
               </time>
               {{ end }}
             </div>
             <div class="col-xs-6">
               {{ if .Site.Params.author.name }}
               <div class="post-author">
-                <a target="_blank" href="{{ .Params.author.homepage }}">@{{ .Site.Params.author.name }}</a>
+                @王君尧
               </div>
               {{ end }}
             </div>

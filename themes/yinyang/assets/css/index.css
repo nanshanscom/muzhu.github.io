@@ -101,9 +101,7 @@ a:hover {
 
 .header-line {
   width: 100%;
-  border-width: 2px;
-  border-color: #482936;
-  border-style: solid none none none;
+  border-width: 0;
 }
 
 .lang-switch {
@@ -178,6 +176,8 @@ a:hover {
 .post-author {
   float: right;
   font-weight: 600;
+  text-decoration: none;
+  color: #000;
 }
 
 .page-content {
